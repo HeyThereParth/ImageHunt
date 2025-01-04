@@ -36,7 +36,7 @@ const ImageContextProvider = ({ children }) => {
 
   //for showing default photos
   useEffect(() => {
-    fetchImages("fan", 1);
+    fetchImages("random", 1);
   }, []);
 
   useEffect(() => {
