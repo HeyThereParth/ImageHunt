@@ -11,7 +11,6 @@ const ImageContextProvider = ({ children }) => {
   const [inputValue, setInputValue] = useState("");
   const [searchTitle, setSearchTitle] = useState("");
   const [loading, setLoading] = useState(false);
-
   const API_URL = "https://api.unsplash.com/search/photos";
   const IMAGES_PER_PAGE = 12;
 

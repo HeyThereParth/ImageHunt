@@ -10,11 +10,12 @@ export const Search = () => {
     setPage(1);
     setSearchQuery(inputValue);
     setSearchTitle(inputValue);
-    setInputValue("");// Clear the input field after searching
+    setInputValue(""); // Clear the input field after searching
   };
   const handleKey = (e) => {
-    if (e.key === "Enter") // Trigger the search if Enter is pressed
-    handleSearch();
+    if (e.key === "Enter")
+      // Trigger the search if Enter is pressed
+      handleSearch();
   };
   return (
     <div className="flex">
