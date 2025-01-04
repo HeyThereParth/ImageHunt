@@ -23,7 +23,7 @@ export const Search = () => {
         onChange={(e) => setInputValue(e.target.value)}
         onKeyDown={handleKey}
         value={inputValue}
-        className="bg-gray-50 border-gray-400 text-lg w-full p-2.5 outline-none indent-2 rounded-bl rounded-tl"
+        className="bg-gray-50 border-gray-400 text-md w-full p-2.5 outline-none indent-2 rounded-bl rounded-tl"
         type="search"
         placeholder="Search..."
       />
