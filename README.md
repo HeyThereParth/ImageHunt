@@ -7,7 +7,7 @@ Welcome to **ImageHunt**, an image search application built with React and style
 
 - **Dynamic Image Search**: Search for breathtaking images using keywords.
 - **Skeleton Loading**: Enjoy a smooth experience with loaders while images are being fetched.
-- **Responsive and Clean UI**: Designed for optimal performance across devices.
+- **Responsive and Clean UI**: Designed for optimal performance across all devices.
 - **Powered by Unsplash API**: Fetches a wide range of high-quality images directly from Unsplash.
 
 ## Tech Stack
